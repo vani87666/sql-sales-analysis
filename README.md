@@ -16,8 +16,9 @@ Analyze sales data to extract meaningful business insights using SQL.
 - GROUP BY, HAVING
 - Subqueries
 - Window Functions (RANK)
-- 
-
+  ## Tools
+- MySQL
+- GitHub
 ## Conclusion
 This project demonstrates strong SQL skills and the ability to derive insights from data.
 ## Sample Insights
