@@ -16,6 +16,23 @@ Analyze sales data to extract meaningful business insights using SQL.
 - GROUP BY, HAVING
 - Subqueries
 - Window Functions (RANK)
+- 
 
 ## Conclusion
 This project demonstrates strong SQL skills and the ability to derive insights from data.
+## Sample Insights
+
+- Top Customer: Sneha (₹57,000)
+- Highest Spending Category: Electronics
+- Most Sold Product: T-shirt
+- Total Revenue: ₹140,300
+  
+## Example Query
+
+```sql
+SELECT customer_name, 
+       SUM(price * quantity) AS total_spent
+FROM sales
+GROUP BY customer_name
+ORDER BY total_spent DESC
+LIMIT 3;
