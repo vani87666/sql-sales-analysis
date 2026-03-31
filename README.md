@@ -21,19 +21,42 @@ Analyze sales data to extract meaningful business insights using SQL.
 - GitHub
 ## Conclusion
 This project demonstrates strong SQL skills and the ability to derive insights from data.
-## Sample Insights
 
-- Top Customer: Sneha (₹57,000)
-- Highest Spending Category: Electronics
-- Most Sold Product: T-shirt
-- Total Revenue: ₹140,300
-  
-## Example Query
 
-```sql
-SELECT customer_name, 
-       SUM(price * quantity) AS total_spent
-FROM sales
-GROUP BY customer_name
-ORDER BY total_spent DESC
-LIMIT 3;
+## Project 2: E-commerce Analysis (JOIN)
+
+### Objective:
+Analyze customer order data using multiple tables to generate meaningful business insights.
+
+### Dataset Structure:
+- customers (customer_id, name, city)
+- orders (order_id, customer_id, order_date)
+- order_details (order_id, product, quantity, price)
+
+### Key Analysis Performed:
+- Total revenue calculation using JOINs
+- Revenue generated per customer
+- Top 3 customers based on spending
+- Identified customers with no orders
+- Most sold product based on quantity
+- Monthly revenue trend analysis
+- City-wise revenue distribution
+- Customer Lifetime Value (CLV)
+
+### Key Insights:
+- Identified highest spending customers
+- Found inactive customers (no orders)
+- Detected top-performing products
+- Observed revenue trends over months
+- Compared revenue contribution by cities
+
+### Skills Used:
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- ORDER BY
+- Aggregate Functions (SUM, COUNT)
+- Data Analysis using SQL
+
+### File:
+- ecommerce_analysis.sql
