@@ -60,3 +60,40 @@ Analyze customer order data using multiple tables to generate meaningful busines
 
 ### File:
 - ecommerce_analysis.sql
+
+
+## Project 3: Student Performance Analysis
+
+### Objective:
+Analyze student academic performance and behavior using SQL to identify patterns and insights.
+
+### Dataset Structure:
+- students (student_id, name, department)
+- exams (exam_id, student_id, subject, marks)
+- attendance (student_id, attendance_percentage)
+
+### Key Analysis Performed:
+- Calculated average and total marks per student
+- Identified top-performing students
+- Found students scoring below average
+- Analyzed department-wise performance
+- Detected students with high attendance but low marks
+- Ranked students using RANK() window function
+- Classified students as PASS/FAIL using CASE statements
+
+### Key Insights:
+- Identified top and low-performing students
+- Found mismatch between attendance and performance
+- Compared performance across departments
+- Highlighted students needing improvement
+
+### Skills Used:
+- INNER JOIN
+- GROUP BY & HAVING
+- Subqueries
+- Window Functions (RANK)
+- CASE Statements
+- Aggregate Functions (SUM, AVG)
+
+### File:
+- student_performance.sql
