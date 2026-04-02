@@ -1,4 +1,5 @@
-# SQL Sales & Customer Analysis
+
+## Project 1: SQL Sales & Customer Analysis
 
 ## Objective
 Analyze sales data to extract meaningful business insights using SQL.
